@@ -1,0 +1,316 @@
+{
+    "aimbot": {
+        "bezierIntensity": 0.5,
+        "bone": 6,
+        "deadzone": 0.5,
+        "deadzoneEnabled": false,
+        "enabled": true,
+        "fov": 3.5999999046325684,
+        "fovCircle": true,
+        "hitchance": 100.0,
+        "jitter": 0.10000000149011612,
+        "key": 5,
+        "keyToggle": false,
+        "lockDelay": 0,
+        "mode": 0,
+        "rcsCompensation": false,
+        "rcsPitch": 2.0,
+        "rcsYaw": 2.0,
+        "silentAim": false,
+        "smooth": 2.0,
+        "smoothSpeed": 1.8899999856948853,
+        "visCheck": true
+    },
+    "backtrack": {
+        "drawTrail": false,
+        "enabled": false,
+        "time": 200
+    },
+    "bulletTracer": {
+        "enabled": false,
+        "lifetime": 2.5,
+        "rayLength": 8000.0,
+        "speed": 8000.0,
+        "thickness": 2.0
+    },
+    "esp": {
+        "arrowColorEnemy": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "arrowColorTeam": [
+            0.3100000023841858,
+            0.5899999737739563,
+            1.0,
+            1.0
+        ],
+        "arrowGlow": false,
+        "arrowRadius": 150.0,
+        "arrowSize": 10.0,
+        "arrows": true,
+        "boxColorEnemy": [
+            1.0,
+            0.3100000023841858,
+            0.3100000023841858,
+            1.0
+        ],
+        "boxColorTeam": [
+            0.3100000023841858,
+            0.5899999737739563,
+            1.0,
+            1.0
+        ],
+        "boxType": 0,
+        "boxes": false,
+        "crosshairRecoil": false,
+        "crosshairSniper": false,
+        "distance": false,
+        "distanceColorEnemy": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "distanceColorTeam": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "droppedItemBoxColor": [
+            0.7799999713897705,
+            0.7799999713897705,
+            0.7799999713897705,
+            1.0
+        ],
+        "droppedItemBoxes": false,
+        "droppedItemColor": [
+            0.7799999713897705,
+            0.7799999713897705,
+            0.7799999713897705,
+            1.0
+        ],
+        "droppedItems": false,
+        "enabled": true,
+        "grenadePrediction": false,
+        "health": true,
+        "molotovColor": [
+            1.0,
+            0.3100000023841858,
+            0.3100000023841858,
+            1.0
+        ],
+        "molotovIndicator": false,
+        "nameColorEnemy": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "nameColorTeam": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "names": true,
+        "skeleton": false,
+        "skeletonColorEnemy": [
+            1.0,
+            0.4699999988079071,
+            0.4699999988079071,
+            0.8600000143051147
+        ],
+        "skeletonColorTeam": [
+            0.4699999988079071,
+            0.699999988079071,
+            1.0,
+            0.8600000143051147
+        ],
+        "skeletonHead": false,
+        "smokeColor": [
+            0.7799999713897705,
+            0.8600000143051147,
+            1.0,
+            1.0
+        ],
+        "smokeIndicator": false,
+        "snaplineColorEnemy": [
+            1.0,
+            0.3100000023841858,
+            0.3100000023841858,
+            0.699999988079071
+        ],
+        "snaplineColorTeam": [
+            0.3100000023841858,
+            0.5899999737739563,
+            1.0,
+            0.699999988079071
+        ],
+        "snaplines": false,
+        "spectatorList": false,
+        "teamCheck": true,
+        "weapon": true,
+        "weaponColorEnemy": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "weaponColorTeam": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ]
+    },
+    "glow": {
+        "colorEnemy": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "enabled": true,
+        "style": 0,
+        "teamCheck": true
+    },
+    "knifeChanger": {
+        "enabled": false,
+        "model": 0,
+        "paintKit": 0,
+        "seed": 0,
+        "statTrak": -1,
+        "wear": 0.0010000000474974513
+    },
+    "materialChams": {
+        "debugAll": false,
+        "enabled": false,
+        "hiddenColor": [
+            1.0,
+            0.20000000298023224,
+            0.20000000298023224,
+            1.0
+        ],
+        "ignoreZ": true,
+        "teamCheck": true,
+        "type": 0,
+        "visibleColor": [
+            0.0,
+            1.0,
+            0.4000000059604645,
+            1.0
+        ]
+    },
+    "misc": {
+        "autoAccept": false,
+        "bhop": false,
+        "bombTimer": false,
+        "flashIndicator": false,
+        "forceRes1440": false,
+        "fov": 110.0,
+        "fovChanger": false,
+        "hitmarker": true,
+        "hitmarkerColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "hitmarkerDuration": 1.0,
+        "hitmarkerGlow": false,
+        "hitmarkerMode": 1,
+        "hitmarkerSize": 6.0,
+        "hitsound": false,
+        "hitsoundPath": "hitsound.wav",
+        "hitsoundType": 0,
+        "killEffect": true,
+        "killEffectColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "killEffectType": 1,
+        "nightMode": true,
+        "nightMode3DSkyboxColor": [
+            0.05000000074505806,
+            0.05000000074505806,
+            0.10000000149011612,
+            1.0
+        ],
+        "nightModeCustomWallMaterial": false,
+        "nightModeFog": false,
+        "nightModeFogColor": [
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            1.0
+        ],
+        "nightModeFogEnd": 2500.0,
+        "nightModeFogStart": 0.0,
+        "nightModeLightingColor": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.30000001192092896,
+            1.0
+        ],
+        "nightModeLightingStrength": 0.25999999046325684,
+        "nightModeSkyboxColor": [
+            0.05000000074505806,
+            0.05000000074505806,
+            0.10000000149011612,
+            1.0
+        ],
+        "nightModeWallsColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+        ],
+        "noflash": false,
+        "noflashAlpha": 0.0,
+        "radar": true,
+        "rcs": false,
+        "rcsStrength": 1.0,
+        "removeShadows": false,
+        "removeSkybox": false,
+        "skyboxChanger": false,
+        "skyboxIndex": 0,
+        "weather": true,
+        "weatherDensity": 716.0,
+        "weatherMode": 0,
+        "weatherSpeed": 1.149999976158142,
+        "weatherWind": 0.800000011920929,
+        "wireframeEnabled": false,
+        "wireframeMode": 0
+    },
+    "skinChanger": {
+        "enabled": false,
+        "weapons": {}
+    },
+    "thirdperson": {
+        "enabled": false
+    },
+    "triggerbot": {
+        "delay": 10,
+        "enabled": false,
+        "key": 18,
+        "keyToggle": false
+    },
+    "watermark": {
+        "enabled": true
+    },
+    "wireframe3d": {
+        "color": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "enabled": false,
+        "thickness": 1.5
+    }
+}
