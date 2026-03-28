@@ -5,7 +5,7 @@
         "deadzone": 0.5,
         "deadzoneEnabled": false,
         "enabled": true,
-        "fov": 3.5999999046325684,
+        "fov": 4.400000095367432,
         "fovCircle": true,
         "hitchance": 100.0,
         "jitter": 0.10000000149011612,
@@ -18,7 +18,7 @@
         "rcsYaw": 2.0,
         "silentAim": false,
         "smooth": 2.0,
-        "smoothSpeed": 1.8899999856948853,
+        "smoothSpeed": 2.0199999809265137,
         "visCheck": true
     },
     "backtrack": {
@@ -207,7 +207,7 @@
     "misc": {
         "autoAccept": false,
         "bhop": false,
-        "bombTimer": false,
+        "bombTimer": true,
         "flashIndicator": false,
         "forceRes1440": false,
         "fov": 110.0,
