@@ -95,7 +95,7 @@
         "droppedItems": false,
         "enabled": true,
         "grenadePrediction": false,
-        "health": true,
+        "health": false,
         "molotovColor": [
             1.0,
             0.3100000023841858,
@@ -288,8 +288,37 @@
         "wireframeMode": 0
     },
     "skinChanger": {
-        "enabled": false,
-        "weapons": {}
+        "enabled": true,
+        "weapons": {
+            "1": {
+                "enabled": true,
+                "paintKit": 1025,
+                "seed": 0,
+                "statTrak": -1,
+                "wear": 0.0010000000474974513
+            },
+            "16": {
+                "enabled": true,
+                "paintKit": 33,
+                "seed": 0,
+                "statTrak": -1,
+                "wear": 0.0010000000474974513
+            },
+            "7": {
+                "enabled": true,
+                "paintKit": 1025,
+                "seed": 0,
+                "statTrak": -1,
+                "wear": 0.0010000000474974513
+            },
+            "9": {
+                "enabled": true,
+                "paintKit": 618,
+                "seed": 0,
+                "statTrak": -1,
+                "wear": 0.0010000000474974513
+            }
+        }
     },
     "thirdperson": {
         "enabled": false
