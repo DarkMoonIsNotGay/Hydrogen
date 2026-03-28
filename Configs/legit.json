@@ -64,7 +64,7 @@
         ],
         "boxType": 0,
         "boxes": false,
-        "crosshairRecoil": false,
+        "crosshairRecoil": true,
         "crosshairSniper": false,
         "distance": false,
         "distanceColorEnemy": [
