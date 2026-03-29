@@ -5,7 +5,7 @@
         "deadzone": 0.5,
         "deadzoneEnabled": false,
         "enabled": true,
-        "fov": 4.400000095367432,
+        "fov": 5.0,
         "fovCircle": true,
         "hitchance": 100.0,
         "jitter": 0.10000000149011612,
@@ -17,8 +17,8 @@
         "rcsPitch": 2.0,
         "rcsYaw": 2.0,
         "silentAim": false,
-        "smooth": 2.0,
-        "smoothSpeed": 2.0199999809265137,
+        "smooth": 2.5999999046325684,
+        "smoothSpeed": 2.130000114440918,
         "visCheck": true
     },
     "backtrack": {
@@ -41,8 +41,8 @@
             1.0
         ],
         "arrowColorTeam": [
-            0.3100000023841858,
-            0.5899999737739563,
+            1.0,
+            1.0,
             1.0,
             1.0
         ],
@@ -64,8 +64,8 @@
         ],
         "boxType": 0,
         "boxes": false,
-        "crosshairRecoil": true,
-        "crosshairSniper": false,
+        "crosshairRecoil": false,
+        "crosshairSniper": true,
         "distance": false,
         "distanceColorEnemy": [
             1.0,
@@ -116,16 +116,16 @@
             1.0
         ],
         "names": true,
-        "skeleton": false,
+        "skeleton": true,
         "skeletonColorEnemy": [
             1.0,
-            0.4699999988079071,
-            0.4699999988079071,
+            1.0,
+            1.0,
             0.8600000143051147
         ],
         "skeletonColorTeam": [
-            0.4699999988079071,
-            0.699999988079071,
+            1.0,
+            1.0,
             1.0,
             0.8600000143051147
         ],
@@ -186,21 +186,19 @@
         "wear": 0.0010000000474974513
     },
     "materialChams": {
-        "debugAll": false,
         "enabled": false,
         "hiddenColor": [
             1.0,
-            0.20000000298023224,
-            0.20000000298023224,
+            1.0,
+            1.0,
             1.0
         ],
-        "ignoreZ": true,
-        "teamCheck": true,
+        "ignoreZ": false,
         "type": 0,
         "visibleColor": [
+            0.20000000298023224,
             0.0,
             1.0,
-            0.4000000059604645,
             1.0
         ]
     },
@@ -209,9 +207,8 @@
         "bhop": false,
         "bombTimer": true,
         "flashIndicator": false,
-        "forceRes1440": false,
         "fov": 110.0,
-        "fovChanger": false,
+        "fovChanger": true,
         "hitmarker": true,
         "hitmarkerColor": [
             1.0,
@@ -257,7 +254,7 @@
             0.30000001192092896,
             1.0
         ],
-        "nightModeLightingStrength": 0.25999999046325684,
+        "nightModeLightingStrength": 0.20000000298023224,
         "nightModeSkyboxColor": [
             0.05000000074505806,
             0.05000000074505806,
@@ -272,18 +269,18 @@
         ],
         "noflash": false,
         "noflashAlpha": 0.0,
-        "radar": true,
+        "radar": false,
         "rcs": false,
         "rcsStrength": 1.0,
         "removeShadows": false,
         "removeSkybox": false,
         "skyboxChanger": false,
         "skyboxIndex": 0,
-        "weather": true,
-        "weatherDensity": 716.0,
+        "weather": false,
+        "weatherDensity": 500.0,
         "weatherMode": 0,
-        "weatherSpeed": 1.149999976158142,
-        "weatherWind": 0.800000011920929,
+        "weatherSpeed": 1.0,
+        "weatherWind": 0.20000000298023224,
         "wireframeEnabled": false,
         "wireframeMode": 0
     },
@@ -299,7 +296,21 @@
             },
             "16": {
                 "enabled": true,
-                "paintKit": 33,
+                "paintKit": 420,
+                "seed": 0,
+                "statTrak": -1,
+                "wear": 0.0010000000474974513
+            },
+            "4": {
+                "enabled": true,
+                "paintKit": 1120,
+                "seed": 0,
+                "statTrak": -1,
+                "wear": 0.0010000000474974513
+            },
+            "60": {
+                "enabled": true,
+                "paintKit": 196,
                 "seed": 0,
                 "statTrak": -1,
                 "wear": 0.0010000000474974513
@@ -313,7 +324,7 @@
             },
             "9": {
                 "enabled": true,
-                "paintKit": 618,
+                "paintKit": 418,
                 "seed": 0,
                 "statTrak": -1,
                 "wear": 0.0010000000474974513
@@ -324,9 +335,9 @@
         "enabled": false
     },
     "triggerbot": {
-        "delay": 10,
-        "enabled": false,
-        "key": 18,
+        "delay": 7,
+        "enabled": true,
+        "key": 6,
         "keyToggle": false
     },
     "watermark": {
