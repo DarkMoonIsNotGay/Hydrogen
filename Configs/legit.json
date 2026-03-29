@@ -1,7 +1,7 @@
 {
     "aimbot": {
         "bezierIntensity": 0.5,
-        "bone": 6,
+        "bone": -2,
         "deadzone": 0.5,
         "deadzoneEnabled": false,
         "enabled": true,
@@ -17,8 +17,8 @@
         "rcsPitch": 2.0,
         "rcsYaw": 2.0,
         "silentAim": false,
-        "smooth": 2.5999999046325684,
-        "smoothSpeed": 2.130000114440918,
+        "smooth": 2.5,
+        "smoothSpeed": 2.0199999809265137,
         "visCheck": true
     },
     "backtrack": {
@@ -168,8 +168,8 @@
     },
     "glow": {
         "colorEnemy": [
-            1.0,
-            1.0,
+            0.3086896538734436,
+            0.30290454626083374,
             1.0,
             1.0
         ],
@@ -311,6 +311,13 @@
             "60": {
                 "enabled": true,
                 "paintKit": 196,
+                "seed": 0,
+                "statTrak": -1,
+                "wear": 0.0010000000474974513
+            },
+            "61": {
+                "enabled": true,
+                "paintKit": 44,
                 "seed": 0,
                 "statTrak": -1,
                 "wear": 0.0010000000474974513
