@@ -208,7 +208,7 @@
         "bombTimer": true,
         "flashIndicator": false,
         "fov": 110.0,
-        "fovChanger": true,
+        "fovChanger": false,
         "hitmarker": true,
         "hitmarkerColor": [
             1.0,
