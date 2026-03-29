@@ -22,9 +22,9 @@
         "visCheck": true
     },
     "backtrack": {
-        "drawTrail": false,
+        "drawTrail": true,
         "enabled": false,
-        "time": 200
+        "time": 6
     },
     "bulletTracer": {
         "enabled": false,
@@ -116,7 +116,7 @@
             1.0
         ],
         "names": true,
-        "skeleton": true,
+        "skeleton": false,
         "skeletonColorEnemy": [
             1.0,
             1.0,
