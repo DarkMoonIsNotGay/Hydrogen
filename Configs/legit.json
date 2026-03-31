@@ -7,6 +7,7 @@
         "enabled": true,
         "fov": 5.0,
         "fovCircle": true,
+        "fovCircleRecoil": false,
         "hitchance": 100.0,
         "jitter": 0.10000000149011612,
         "key": 5,
@@ -20,11 +21,6 @@
         "smooth": 2.5,
         "smoothSpeed": 2.0199999809265137,
         "visCheck": true
-    },
-    "backtrack": {
-        "drawTrail": true,
-        "enabled": false,
-        "time": 6
     },
     "bulletTracer": {
         "enabled": false,
@@ -49,21 +45,21 @@
         "arrowGlow": false,
         "arrowRadius": 150.0,
         "arrowSize": 10.0,
-        "arrows": true,
+        "arrows": false,
         "boxColorEnemy": [
             1.0,
-            0.3100000023841858,
-            0.3100000023841858,
+            1.0,
+            1.0,
             1.0
         ],
         "boxColorTeam": [
-            0.3100000023841858,
-            0.5899999737739563,
+            1.0,
+            1.0,
             1.0,
             1.0
         ],
         "boxType": 0,
-        "boxes": false,
+        "boxes": true,
         "crosshairRecoil": false,
         "crosshairSniper": true,
         "distance": false,
@@ -96,6 +92,12 @@
         "enabled": true,
         "grenadePrediction": false,
         "health": false,
+        "hiddenColor": [
+            0.0,
+            0.6639003753662109,
+            1.0,
+            1.0
+        ],
         "molotovColor": [
             1.0,
             0.3100000023841858,
@@ -152,6 +154,13 @@
         "snaplines": false,
         "spectatorList": false,
         "teamCheck": true,
+        "visibilityColor": true,
+        "visibleColor": [
+            0.0,
+            1.0,
+            0.4398338794708252,
+            1.0
+        ],
         "weapon": true,
         "weaponColorEnemy": [
             1.0,
@@ -173,7 +182,7 @@
             1.0,
             1.0
         ],
-        "enabled": true,
+        "enabled": false,
         "style": 0,
         "teamCheck": true
     },
@@ -186,7 +195,7 @@
         "wear": 0.0010000000474974513
     },
     "materialChams": {
-        "enabled": false,
+        "enabled": true,
         "hiddenColor": [
             1.0,
             1.0,
@@ -194,11 +203,11 @@
             1.0
         ],
         "ignoreZ": false,
-        "type": 0,
+        "type": 2,
         "visibleColor": [
-            0.20000000298023224,
+            0.03921568766236305,
             0.0,
-            1.0,
+            0.9098039269447327,
             1.0
         ]
     },
@@ -208,12 +217,12 @@
         "bombTimer": true,
         "flashIndicator": false,
         "fov": 110.0,
-        "fovChanger": false,
+        "fovChanger": true,
         "hitmarker": true,
         "hitmarkerColor": [
+            0.0,
             1.0,
-            1.0,
-            1.0,
+            0.43921568989753723,
             1.0
         ],
         "hitmarkerDuration": 1.0,
@@ -296,7 +305,7 @@
             },
             "16": {
                 "enabled": true,
-                "paintKit": 420,
+                "paintKit": 102,
                 "seed": 0,
                 "statTrak": -1,
                 "wear": 0.0010000000474974513
@@ -310,7 +319,7 @@
             },
             "60": {
                 "enabled": true,
-                "paintKit": 196,
+                "paintKit": 33,
                 "seed": 0,
                 "statTrak": -1,
                 "wear": 0.0010000000474974513
@@ -348,7 +357,7 @@
         "keyToggle": false
     },
     "watermark": {
-        "enabled": true
+        "enabled": false
     },
     "wireframe3d": {
         "color": [
