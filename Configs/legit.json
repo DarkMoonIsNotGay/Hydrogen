@@ -22,6 +22,9 @@
         "smoothSpeed": 2.0199999809265137,
         "visCheck": true
     },
+    "bombTimer": {
+        "enabled": false
+    },
     "bulletTracer": {
         "enabled": false,
         "lifetime": 2.5,
@@ -42,7 +45,6 @@
             1.0,
             1.0
         ],
-        "arrowGlow": false,
         "arrowRadius": 150.0,
         "arrowSize": 10.0,
         "arrows": false,
@@ -81,6 +83,7 @@
             0.7799999713897705,
             1.0
         ],
+        "droppedItemBoxType": 0,
         "droppedItemBoxes": false,
         "droppedItemColor": [
             0.7799999713897705,
@@ -88,8 +91,10 @@
             0.7799999713897705,
             1.0
         ],
+        "droppedItemDistance": false,
+        "droppedItemText": false,
         "droppedItems": false,
-        "enabled": true,
+        "enabled": false,
         "grenadePrediction": false,
         "health": false,
         "hiddenColor": [
@@ -139,19 +144,6 @@
             1.0
         ],
         "smokeIndicator": false,
-        "snaplineColorEnemy": [
-            1.0,
-            0.3100000023841858,
-            0.3100000023841858,
-            0.699999988079071
-        ],
-        "snaplineColorTeam": [
-            0.3100000023841858,
-            0.5899999737739563,
-            1.0,
-            0.699999988079071
-        ],
-        "snaplines": false,
         "spectatorList": false,
         "teamCheck": true,
         "visibilityColor": true,
@@ -182,9 +174,19 @@
             1.0,
             1.0
         ],
-        "enabled": false,
+        "enabled": true,
         "style": 0,
         "teamCheck": true
+    },
+    "handsChams": {
+        "color": [
+            0.20000000298023224,
+            0.0,
+            1.0,
+            1.0
+        ],
+        "enabled": false,
+        "type": 0
     },
     "knifeChanger": {
         "enabled": false,
@@ -203,7 +205,7 @@
             1.0
         ],
         "ignoreZ": false,
-        "type": 2,
+        "type": 1,
         "visibleColor": [
             0.03921568766236305,
             0.0,
@@ -212,17 +214,34 @@
         ]
     },
     "misc": {
+        "aspectRatio": false,
+        "aspectRatioValue": 1.3329999446868896,
         "autoAccept": false,
         "bhop": false,
-        "bombTimer": true,
-        "flashIndicator": false,
+        "footstepEsp": false,
+        "footstepEspColor": [
+            1.0,
+            1.0,
+            1.0,
+            0.8999999761581421
+        ],
+        "footstepEspColorTeam": [
+            0.3100000023841858,
+            0.5899999737739563,
+            1.0,
+            0.8999999761581421
+        ],
+        "footstepEspDuration": 1.0,
+        "footstepEspRadius": 20.0,
+        "footstepEspTeamCheck": true,
+        "footstepEspThickness": 1.5,
         "fov": 110.0,
         "fovChanger": true,
         "hitmarker": true,
         "hitmarkerColor": [
             0.0,
+            0.6627451181411743,
             1.0,
-            0.43921568989753723,
             1.0
         ],
         "hitmarkerDuration": 1.0,
@@ -230,8 +249,7 @@
         "hitmarkerMode": 1,
         "hitmarkerSize": 6.0,
         "hitsound": false,
-        "hitsoundPath": "hitsound.wav",
-        "hitsoundType": 0,
+        "hitsoundFile": "",
         "killEffect": true,
         "killEffectColor": [
             1.0,
@@ -240,56 +258,32 @@
             1.0
         ],
         "killEffectType": 1,
+        "killScreenFlashColor": [
+            1.0,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.6000000238418579
+        ],
+        "killTextCustom": "ELIMINATED",
+        "killTextMode": 0,
         "nightMode": true,
-        "nightMode3DSkyboxColor": [
-            0.05000000074505806,
-            0.05000000074505806,
-            0.10000000149011612,
-            1.0
-        ],
-        "nightModeCustomWallMaterial": false,
-        "nightModeFog": false,
-        "nightModeFogColor": [
-            0.10000000149011612,
-            0.10000000149011612,
-            0.10000000149011612,
-            1.0
-        ],
-        "nightModeFogEnd": 2500.0,
-        "nightModeFogStart": 0.0,
-        "nightModeLightingColor": [
-            0.20000000298023224,
-            0.20000000298023224,
-            0.30000001192092896,
-            1.0
-        ],
         "nightModeLightingStrength": 0.20000000298023224,
-        "nightModeSkyboxColor": [
-            0.05000000074505806,
-            0.05000000074505806,
-            0.10000000149011612,
-            1.0
-        ],
-        "nightModeWallsColor": [
-            0.5,
-            0.5,
-            0.5,
-            1.0
-        ],
         "noflash": false,
-        "noflashAlpha": 0.0,
         "radar": false,
         "rcs": false,
         "rcsStrength": 1.0,
-        "removeShadows": false,
-        "removeSkybox": false,
         "skyboxChanger": false,
         "skyboxIndex": 0,
-        "weather": false,
-        "weatherDensity": 500.0,
-        "weatherMode": 0,
+        "viewmodelFovValue": 100.0,
+        "viewmodelX": 0.0,
+        "viewmodelXyzEnabled": false,
+        "viewmodelY": 0.0,
+        "viewmodelZ": 0.0,
+        "weather": true,
+        "weatherDensity": 1550.0,
+        "weatherMode": 2,
         "weatherSpeed": 1.0,
-        "weatherWind": 0.20000000298023224,
+        "weatherWind": 0.05000000074505806,
         "wireframeEnabled": false,
         "wireframeMode": 0
     },
@@ -356,17 +350,18 @@
         "key": 6,
         "keyToggle": false
     },
-    "watermark": {
-        "enabled": false
-    },
-    "wireframe3d": {
+    "version": 2,
+    "viewmodelChams": {
         "color": [
             0.0,
-            1.0,
+            0.0,
             1.0,
             1.0
         ],
         "enabled": false,
-        "thickness": 1.5
+        "type": 0
+    },
+    "watermark": {
+        "enabled": false
     }
 }
