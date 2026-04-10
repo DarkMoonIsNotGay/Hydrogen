@@ -1,0 +1,28 @@
+{
+  "GameOffsets": {
+    "General": {
+      "BONE_STRIDE": 32,
+      "ENTITY_STRIDE": 112,
+      "BONE_ARRAY_OFFSET": 128,
+      "ATTRIB_MANAGER_ITEM_OFFSET": 80,
+      "ITEM_DEF_INDEX_OFFSET": 442
+    },
+    "CMeshData": {
+      "CMESH_MAT_OFFSET": 32,
+      "CMESH_CLR_OFFSET": 80,
+      "CMESH_ENT_SIZE": 96
+    },
+    "BaseEntitySystem": {
+      "ENTITY_LIST_CHUNK_OFFSET": 16,
+      "ENTITY_IDENTITY_OFFSET": 16,
+      "DESIGNER_NAME_OFFSET": 32
+    },
+    "FrameHistory": {
+      "FRAME_HISTORY_COUNT_OFF": 3016,
+      "FRAME_HISTORY_ARRAY_OFF": 3024,
+      "FRAME_ENTRY_SIZE": 96,
+      "PITCH_OFF_IN_ENTRY": 16,
+      "YAW_OFF_IN_ENTRY": 20
+    }
+  }
+}
