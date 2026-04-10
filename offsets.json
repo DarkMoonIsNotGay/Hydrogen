@@ -23,6 +23,30 @@
       "FRAME_ENTRY_SIZE": 96,
       "PITCH_OFF_IN_ENTRY": 16,
       "YAW_OFF_IN_ENTRY": 20
+    },
+    "C_AttributeContainer": {
+      "OFF_m_AttributeManager": 4984,
+      "OFF_m_Item": 80,
+      "OFF_m_nFallbackPaintKit": 6224,
+      "OFF_m_nFallbackSeed": 6228,
+      "OFF_m_flFallbackWear": 6232,
+      "OFF_m_nFallbackStatTrak": 6236
+    },
+    "C_EconItemView": {
+      "OFF_m_iItemDefinitionIndex": 442,
+      "OFF_m_iItemIDHigh": 464,
+      "OFF_m_iItemIDLow": 468,
+      "OFF_m_iAccountID": 472
+    },
+    "CAttributeList": {
+      "OFF_m_AttributeList": 520,
+      "OFF_m_Attributes": 8
+    },
+    "C_CSPlayerPawn": {
+      "OFF_m_pClippingWeapon": 15808,
+      "OFF_m_pWeaponServices": 5080,
+      "OFF_m_hMyWeapons": 72,
+      "OFF_m_hActiveWeapon": 96
     }
   }
 }
