@@ -34,6 +34,7 @@
     },
     "C_EconItemView": {
       "OFF_m_iItemDefinitionIndex": 442,
+      "OFF_m_iEntityQuality": 444,
       "OFF_m_iItemIDHigh": 464,
       "OFF_m_iItemIDLow": 468,
       "OFF_m_iAccountID": 472
@@ -46,7 +47,8 @@
       "OFF_m_pClippingWeapon": 15808,
       "OFF_m_pWeaponServices": 5080,
       "OFF_m_hMyWeapons": 72,
-      "OFF_m_hActiveWeapon": 96
+      "OFF_m_hActiveWeapon": 96,
+      "OFF_m_nSubclassID": 904
     }
   }
 }
