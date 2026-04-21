@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-04-18 14:49:40.603526100 UTC
+// 2026-04-21 13:30:49.156769700 UTC
 
 #pragma once
 
@@ -12,15 +12,13 @@ namespace cs2_dumper {
         // Class count: 2
         // Enum count: 0
         namespace host_dll {
-            // Parent: None
-            // Field count: 1
+            // Parent: xL_U__
+            // Field count: 0
             namespace EmptyTestScript {
-                constexpr std::ptrdiff_t m_hTest = 0x10; // CAnimScriptParam<float32>
             }
             // Parent: None
-            // Field count: 1
+            // Field count: 0
             namespace CAnimScriptBase {
-                constexpr std::ptrdiff_t m_bIsValid = 0x8; // bool
             }
         }
     }
